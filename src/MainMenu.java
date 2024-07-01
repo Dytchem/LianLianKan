@@ -79,6 +79,12 @@ public class MainMenu extends Frame {
 		b3.setFont(new Font("ËÎÌו", Font.PLAIN, 25));
 		b3.setSize(getWidth() / 3, getHeight() / 10);
 		b3.setLocation((getWidth() - b3.getWidth()) / 2, (int) (getHeight() * 0.65));
+		b3.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				new NetMenu();
+			}
+		});
 		add(b3);
 	}
 

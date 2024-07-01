@@ -11,8 +11,9 @@ public class Main {
 //		Tester t = new Tester();
 //		t.test1();
 		new MainMenu();
-		// new CreateGame();
+		//new CreateGame();
 		// new GameData(10,10,5);
-		//nmz
+		//new Server(12345);
+		//new Client("127.0.0.1",12345);
 	}
 }
